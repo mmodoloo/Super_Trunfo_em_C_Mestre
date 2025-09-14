@@ -36,14 +36,16 @@ int main() {
     return 0;
 }
 
-void endGame() {
+void endGame()
+ {
     printf("\n================ FIM DO PROJETO ================\n");
     printf("Os códigos dos três níveis estão disponíveis para\n");
     printf("quem quiser testar. Seu feedback ajuda muito!\n\n");
     contatos();
 }
 
-void contatos() {
+void contatos() 
+{
     char gmail[] = "modolodev@gmail.com";
     char linkedin[] = "Miguel Modolo";
 
@@ -52,4 +54,4 @@ void contatos() {
     printf("LinkedIn: %s\n", linkedin);
 }
 
-retun = 0;
+return = 0;
