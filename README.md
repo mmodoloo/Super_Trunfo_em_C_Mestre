@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
+// Protótipos
+void endGame();
+void contatos();
+
 int main() {
 
     /*
     ================================================================
-    |                SUPER TRUNFO - NÍVEL MESTRE!                  |
+    |                SUPER TRUNFO - NÍVEL FINAL!                    |
     ================================================================
     
     E finalmente chegamos no último dos três níveis do projeto 
@@ -18,7 +22,7 @@ int main() {
     - O código soma todos os atributos da cidade.
     - Quem tiver o maior valor total vence!
     - Mas atenção! Na densidade populacional, quem tiver o **menor valor**,
-      recebe mais pontos!
+      recebe mais pontos. Estratégia é tudo aqui!
     */
 
     printf("Bem-vindo ao SUPER TRUNFO - NÍVEL FINAL!\n\n");
@@ -30,22 +34,21 @@ int main() {
 
     printf("\nDuelo iniciado! Que vença a melhor cidade!\n\n");
 
-    // Função para finalizar
+    // Finalizar
     endGame();
 
     return 0;
 }
 
-void endGame()
- {
+void endGame() {
     printf("\n================ FIM DO PROJETO ================\n");
     printf("Os códigos dos três níveis estão disponíveis para\n");
     printf("quem quiser testar. Seu feedback ajuda muito!\n\n");
+
     contatos();
 }
 
-void contatos() 
-{
+void contatos() {
     char gmail[] = "modolodev@gmail.com";
     char linkedin[] = "Miguel Modolo";
 
@@ -53,5 +56,3 @@ void contatos()
     printf("Gmail: %s\n", gmail);
     printf("LinkedIn: %s\n", linkedin);
 }
-
-return = 0;
