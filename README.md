@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -56,3 +57,4 @@ void contatos() {
     printf("Gmail: %s\n", gmail);
     printf("LinkedIn: %s\n", linkedin);
 }
+```
