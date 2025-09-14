@@ -8,23 +8,23 @@ void contatos();
 
 int main() {
 
-    /*
-    ================================================================
-    |                SUPER TRUNFO - NÍVEL FINAL!                    |
-    ================================================================
-    
-    E finalmente chegamos no último dos três níveis do projeto 
-    do mini jogo Super Trunfo em C. 🎴
+                /*
+                ================================================================
+                |                SUPER TRUNFO - NÍVEL FINAL!                    |
+                ================================================================
+                
+                E finalmente chegamos no último dos três níveis do projeto 
+                do mini jogo Super Trunfo em C. 🎴
 
-    Assim como nos dois níveis anteriores, o usuário poderá inserir 
-    dados da cidade escolhida: nome, PIB, população, área, etc.
+                Assim como nos dois níveis anteriores, o usuário poderá inserir 
+                dados da cidade escolhida: nome, PIB, população, área, etc.
 
-    A grande novidade é a **função de duelo** ⚔️:
-    - O código soma todos os atributos da cidade.
-    - Quem tiver o maior valor total vence!
-    - Mas atenção! Na densidade populacional, quem tiver o **menor valor**,
-      recebe mais pontos. Estratégia é tudo aqui!
-    */
+                A grande novidade é a **função de duelo** ⚔️:
+                - O código soma todos os atributos da cidade.
+                - Quem tiver o maior valor total vence!
+                - Mas atenção! Na densidade populacional, quem tiver o **menor valor**,
+                recebe mais pontos. Estratégia é tudo aqui!
+                */
 
     printf("Bem-vindo ao SUPER TRUNFO - NÍVEL FINAL!\n\n");
 
